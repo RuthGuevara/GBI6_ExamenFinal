@@ -1,8 +1,8 @@
 ---
 title: "GBI6 - BIOINFORMÁTICA"
 subtitle: "EXAMEN FINAL"
-author: 'Apellido Nombre'
-date: "`r Sys.Date()`"
+author: 'Guevara Ruth'
+date: "`r Sys.Date(15/3/2022)`"
 output:
   html_document:
     highlight: espresso
