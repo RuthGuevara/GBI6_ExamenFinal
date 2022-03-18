@@ -156,7 +156,9 @@ d
 ### [0.5 PUNTOS] 2.2 Utilizando la función ```lapply()``` genera la lista ```cancertype_boxplots``` con las gráficas para cada tipo de cancer (cada tipo de dataset). 
 ```{r list_boxplots}
 # Escriba el código para generar la lista. 
-
+e <- c("filtro","OV","LUSC","KIPAN","KIRP","UCEC")
+cancertype_boxplots <- lapply(e, tcga_boxplots)
+cancertype_boxplots
 
 ```
 
