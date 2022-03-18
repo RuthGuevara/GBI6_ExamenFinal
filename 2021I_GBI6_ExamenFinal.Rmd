@@ -178,7 +178,16 @@ dpi = 300,limitsize=TRUE)
 ```{r reg_gen_exp}
 # Escriba aquí su función reg_gen_expression
 
-
+reg_gen_expression <- function(d){
+  genx=d[1]
+  geny=d[2]
+  g <- df_long %>% filter (gen == genx)
+  j <- df_long %>% filter (gen == geny)
+  k <- cbind(g,j) #Combinacion de tablas
+  r <- tibble("dataset"=k[,1],"gen1"=k[,3],"gen2"=k[,6]) #Columnas(1,3 y 6)by name modification.
+  h <- r %>% ggplot(aes(x = gen1, y = gen2, color=dataset)) + geom_point() + geom_smooth(method=lm, se=FALSE)
+  h
+}
 ```
 
 
