@@ -143,8 +143,13 @@ Para esta pregunta tiene que utilizar la data ```df_long```.
 
 ```{r}
 # Escriba el código para crear la función tcga_boxplots
-
-
+tcga_boxplots <- function(data){
+b <- df_long %>% filter (dataset == data)
+c <- b %>% ggplot(aes(x=gen,y=expresion_level, color = gen)) +
+geom_boxplot() + geom_jitter ()
+}
+d <- tcga_boxplots("KIRP")
+d
 
 ```
 
