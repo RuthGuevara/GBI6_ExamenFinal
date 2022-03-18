@@ -12,15 +12,16 @@
 
 ## Programas Utilizados
 - Git Hub
-- Anaconda
-- Jupyter Lab
 - RStudio
-## Paquetes utilizados.
-- Paquete pandas
-- Paquete biopython
-- Paquete reportlab
-- Paquete nglview
-## Explicacion de datos utilizados
-- Se utilizo una base de datos descargada de PubMed desde el ejercicio 1 al 5.
-- En el ejercicio 6 se hizo una busqueda en NCBI de un gen de interes, posteriormente se realizo la descarga del Access List, no tome los 10 primeros porque la secuencia era sumamente grante. Sin embargo, todo se realizo correctamente, se creò un arbol filogenetico el GEN TP53.
+- Git bash 
+##Librerías usadas
 
+- library(gplot2)
+- library(readr)
+- library(dplyr)
+- library(sjmisc)
+- library(tidyverse)
+- library(sjPlot)
+-
+## Explicacion de datos utilizados
+- La data proporcionada contiene diferentes tipos de canceres como el BRCA, OV, LUSC, KIPAN, UCEC.  
