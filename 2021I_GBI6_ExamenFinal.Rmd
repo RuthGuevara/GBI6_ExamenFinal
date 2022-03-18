@@ -203,7 +203,6 @@ print ("El onceavo elemento de la lista es:")
 reg_genplots[[11]]
 ```
 
-
 ### [0.5 PUNTOS] 2.6. Guarde en el subdirectorio ```result``` el onceavo plot de la lista ```reg_genplots``` con el nombre ```regresion11.pdf```. La definición de a figura debe ser de 300dpi. 
 ```{r reg11}
 # Escriba el código para guardar el onceavo plot. 
@@ -212,12 +211,13 @@ ggsave(filename = "results/regresion11.pdf", units="in",
 dpi = 300,limitsize=TRUE)
 ```
 
-
 ### [1 PUNTO] 2.7. Interprete los resultados de las figuras ```boxplot3.png``` y ```regresion11.pdf```.
 
 ```{tex}
 # Esciba aquí su intepretación
-
+## RESULTADOS de la figura boxplot3.png = Resultado de la grafica de cajas de boxplot se obtiene los valores de cada uno de los 7 genes distribuidos en cada uno de los diagramas, dicha distribución se encuentra bastante distante en algunos genes detal manera que en algunos se logra evidenciar valores atípicos los cuales se obviarían en caso de una investigación.
+ 
+## RESULTADOS de la figura regresion11.pdf = Resultando de la regresión podemos evidenciar que los datos se encuentran bastante dispersos sin encontrar una relación o conjugación entre cada uno de los genes, es por tal razón que se dice que los genes no se relacionarán al expresarse.
 ```
 
 ## 3. CONTROL DE LA VERSIÓN [1 PUNTO]. Se verficará en ell repositorio de GitHub. 
