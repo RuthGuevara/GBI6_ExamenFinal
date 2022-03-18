@@ -130,7 +130,7 @@ descr(desc_table) %>% tab_df(title ="Cancer KIPAN-GenesEstudiados", file = "resu
 
 ```{tex}
 # Escriba aquí su interpretación 
-
+#Se puede observar que los genes FN1, MUC1 y XBP1 son los que cuentan con una variabilidad de la distribución de los elementos muestrales en base al parámetro de interés.Por otro lado el gen PTEN tiene 0.74 en IQR. 
 ```
 
 
@@ -143,6 +143,7 @@ Para esta pregunta tiene que utilizar la data ```df_long```.
 
 ```{r}
 # Escriba el código para crear la función tcga_boxplots
+
 
 
 ```
