@@ -195,6 +195,12 @@ reg_gen_expression <- function(d){
 ```{r list_regplots}
 # Escriba el código para generar la lista. 
 
+n <- unique(df_long$gen) 
+l <- combn(n,m=2,simplify = FALSE)
+reg_genplots <- lapply(l,reg_gen_expression)
+print (paste("El número de elementos de la lista reg_genplots es: ", length(reg_genplots)))
+print ("El onceavo elemento de la lista es:") 
+reg_genplots[[11]]
 ```
 
 
